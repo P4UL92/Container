@@ -31,14 +31,14 @@ import AssignmentIcon from "@material-ui/icons/Assignment";
 import CheckIcon from "@material-ui/icons/Check";
 import GroupAddIcon from "@material-ui/icons/GroupAdd";
 import DepartureBoardIcon from "@material-ui/icons/DepartureBoard";
-import DirectionsIcon from '@material-ui/icons/Directions';
-import TimerIcon from '@material-ui/icons/Timer';
-import DirectionsBusIcon from '@material-ui/icons/DirectionsBus';
-import TelegramIcon from '@material-ui/icons/Telegram';
-import AddLocationIcon from '@material-ui/icons/AddLocation';
-import PinDropIcon from '@material-ui/icons/PinDrop';
-import ReplayIcon from '@material-ui/icons/Replay';
-import DnsIcon from '@material-ui/icons/Dns';
+import DirectionsIcon from "@material-ui/icons/Directions";
+import TimerIcon from "@material-ui/icons/Timer";
+import DirectionsBusIcon from "@material-ui/icons/DirectionsBus";
+import TelegramIcon from "@material-ui/icons/Telegram";
+import AddLocationIcon from "@material-ui/icons/AddLocation";
+import PinDropIcon from "@material-ui/icons/PinDrop";
+import ReplayIcon from "@material-ui/icons/Replay";
+import DnsIcon from "@material-ui/icons/Dns";
 
 const homeListItems = (
   <div>
@@ -302,11 +302,7 @@ export default function App() {
           >
             Control de Buses
           </Typography>
-          <IconButton color="inherit">
-            <Badge badgeContent={4} color="secondary">
-              <AccountCircle />
-            </Badge>
-          </IconButton>
+          <AccountCircle />
         </Toolbar>
       </AppBar>
       <Drawer
